@@ -4,8 +4,6 @@
 #include "pch.h"
 #include <iostream>
 
-int main(){}
-
 int swap(int &a, int *b) {
 	int temp;
 	// either way works, either the code or the comments
@@ -114,3 +112,6 @@ bool MyClass<T> :: operator!=(T param) {
 // 25% array
 // 25% operator ovverloading
 // 25% local, global variable shadowing **** 
+
+
+int main() {}
